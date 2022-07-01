@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blood Donation Registration</title>
+</head>
+<body>
+<form method="post">
+<fieldset>
+<body style="background-color:rgb(144, 227, 236);">
+<legend style="color:rgb(219, 58, 208)":><big>FREE BLOOD
+SERVIVE</big></legend>
+<center><legend><big><big><b>Blood Donation
+Form</b></big></big></legend></center>
+<br>
+<label style="color:#b40f0f;">Blood Donar
+Information</label><br><hr><br>
+<label>Donar's Name:</label>
+<input type="text" size="30" name="fname" placeholder="First Name">
+<input type="text" size="30" name="mname" placeholder="Middle Name">
+<input type="text" size="30" name="lname" placeholder="Last Name">
+<br><br>
+<label>Gender:</label>
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+<br><br>
+<label>Age:</label>
+<input type="number" name="age">
+<br><br>
+<label>Date Of Birth:</label>
+<input type="date" name="dob">
+<br><br>
+<label>Mobile No.:</label>
+<input type="text" size="11" name="number" placeholder="XXXXX
+XXXXX" title="Enter Your Mobile Number">
+<br><br>
+<label>Address:</label><br>
+<textarea rows="5" cols="50">
+Village:
+Taluka:
+District:
+State:
+Pin:</textarea><br><br>
+<label>Email:</label>
+<input type="email" name="email" size="30" placeholder="abc@gmail.com"
+title="Enter Your Email"> <br><br>
+<label>Blood Group:</label>
+<select name="group">
+<option value="Select">SELECT</option>
+<option value="A+">A+</option>
+<option value="A-">A-</option>
+<option value="B+">B+</option>
+<option value="B-">B-</option>
+<option value="O+">O+</option>
+<option value="O-">O-</option>
+<option value="AB+">AB+</option>
+<option value="AB-">AB-</option>
+</select>
+<br><br>
+<label title="In kg">Is your weight above 50?(In kg)</label>
+<input type="radio" name="weight">Yes
+<input type="radio" name="weight">No
+<br><br>
+<label>Are you suffering from any disease?If No then write No
+below?</label><br>
+<textarea rows="5" cols="30"></textarea><br><br>
+<input type="checkbox" name="agree">
+<label>By ticking,you are conforming that I've read all terms and conditions
+for this blood donation camp and aggried to donate blood.</label>
+<br><br>
+<center><input type="submit" value="Submit"></center>
+</body>
+</fieldset>
+</form>
+</body>
